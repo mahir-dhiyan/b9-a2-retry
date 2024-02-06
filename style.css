@@ -1,0 +1,606 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900;1000&display=swap');
+
+/* Shared Styles */
+* {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+}
+
+/* body{
+    margin-left: 7em; 
+    margin-right:7em;
+} */
+.btn-orange {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+/* Nav Styles */
+header,
+main {
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+.selections li {
+    list-style: none;
+}
+
+.selections a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+nav {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20em;
+}
+
+.logo-name {
+    display: flex;
+    gap: 16px;
+
+}
+
+.selections ul {
+    display: flex;
+    gap: 44px;
+    margin-top: 55px;
+}
+
+.nav-title>span {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.nav-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+
+    font-weight: 800;
+    margin-top: 52px;
+}
+
+.logo {
+    width: 48px;
+    height: 56.008px;
+
+    margin-top: 50px;
+}
+
+.selections .home {
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+/* Banner */
+#when,
+#select-type,
+.where {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('images/banner.png');
+    background-repeat: no-repeat;
+    width: 73em;
+    height: 30em;
+    border-radius: 1em;
+    /* padding-left: 13.5em; */
+    /* padding-right: 13.5em; */
+    display: grid;
+
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.banner-title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-txt {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.inputs {
+    display: flex;
+    gap: 1.5em;
+    margin-left: 12.5em;
+}
+
+/* Section Popular Tours */
+.popular-tours {
+    margin-top: 6em;
+    display: flex;
+    gap: 3.3em;
+}
+
+.pop-txt {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    width: 36em;
+}
+
+.pop-img {
+    width: 33.7em;
+    height: 34.3em;
+}
+
+.last-para {
+    margin-bottom: 2em;
+}
+
+.pop-txt>h2 {
+    margin-bottom: 1.5em;
+    color: #131318;
+
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* Destination Section */
+.destination,
+.choose-us {
+    margin-top: 6.25em;
+}
+
+.destination-txt,
+.choose-us-txt {
+    margin-left: 0;
+
+    width: 73em;
+
+}
+
+.destination h2,
+.choose-us h2,
+.unique-txt h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 1.5em;
+}
+
+.destination p,
+.choose-us p,
+.unique-txt p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.img-1,
+.img-2,
+.img-3 {
+    margin-top: 3em;
+
+}
+
+.img-1,
+.img-2,
+.img-3 {
+    display: flex;
+    gap: 1.5em;
+}
+
+.destination img {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+    border-radius: 1em;
+
+
+
+}
+
+.country-container {
+    position: relative;
+    text-align: center;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.country-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Choose Uss */
+.cards {
+    margin-left: 0;
+
+    width: 73em;
+}
+
+.card-row {
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+
+
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    width: 35.8em;
+    height: 17.7em;
+    flex-shrink: 0;
+    border-radius: 16px;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    padding: 2em;
+}
+
+.card-1 {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+
+    background: rgba(41, 206, 246, 0.05);
+
+
+
+
+}
+
+.card-3 {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+
+    background: rgba(233, 68, 68, 0.05);
+}
+
+
+/* Newsletter Styles */
+.newsletter {
+    margin-top: 6em;
+    display: flex;
+    gap: 1.5em;
+    /* justify-content: space-between; */
+
+    margin-left: 0;
+
+    width: 73em;
+}
+
+.newsletter img {
+    height: 30em;
+}
+
+.subscribe-box {
+    width: 90em;
+    height: 30em;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.subscribe-box h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 2.5em;
+}
+
+.subscribe-box p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.subscribe-box hr {
+    background: rgba(19, 19, 24, 0.10);
+    width: 24.5em;
+    margin-left: 2.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.subscribe-box input {
+    width: 350px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-bottom: 1.5em;
+    margin-left: 2.5em;
+    padding: 1em 0 1em 1.25em;
+}
+
+.subscribe-box-txt {
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+
+.discount-box {
+    width: 20em;
+    height: 7.5em;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    padding-top: 1.5em;
+    position: relative;
+    left: 27em;
+    bottom: 12.5em;
+}
+
+.discount-box p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.discount-box h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.subscribe-box button {
+    width: 23em;
+    margin-left: 2em;
+}
+
+/* Unique Part */
+.unique-part {
+    margin-left: 0;
+    
+    width: 73em;
+    
+}
+
+.unique-txt {
+    text-align: center;
+}
+
+.unique-txt p {
+    margin-bottom: 3em;
+}
+
+.unique-txt span {
+    color: #FF5400;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 73em;
+    background: rgba(19, 19, 24, 0.05);
+    padding-left: 7em;
+    padding-right: 7em;
+    margin-top: 4em;
+
+}
+
+footer>p {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+
+}
+
+footer img {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+/* Small Devices */
+@media screen and (max-width:600px) {
+
+    /* header */
+    .banner {
+        width: 33.7em;
+        height: 483px;
+        flex-shrink: 0;
+        background-position: center;
+
+
+    }
+
+    header,
+    main {
+        margin: 1em;
+    }
+
+    .selections {
+        display: none;
+    }
+
+    .banner-title {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .inputs {
+        display: grid;
+        margin-left: 11.5em;
+    }
+
+    /* popular tours */
+    .popular-tours {
+        display: grid;
+    }
+
+    /* Choose Destination */
+    .img-1,
+    .img-2,
+    .img-3 {
+        display: grid;
+        width: 33.7em;
+
+    }
+
+    .destination img {
+        width: 100%;
+    }
+
+    .destination-txt,
+    .choose-us-txt {
+        width: 33.7em;
+    }
+
+    /* Choose Us */
+
+    .card-row,
+    .cards {
+        display: grid;
+
+        width: 33.7em;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        width: 30em;
+
+    }
+
+    /* Newsletter */
+    .newsletter {
+        display: grid;
+
+        width: 33.7em;
+    }
+
+    .subscribe-box {
+        width: 33.7em;
+    }
+
+    .add-box {
+        width: 33.7em;
+
+
+
+    }
+
+    .add-box img {
+        width: 100%;
+    }
+
+    .discount-box {
+        position: relative;
+        left: 13em;
+
+    }
+
+    /* Unique Section */
+    .map iframe {
+        position: absolute;
+        /* top: 50%; */
+        left: 0;
+        width: 100% !important;
+        height: 50% !important;
+        margin-left: 4em;
+    }
+
+    .unique-part {
+        margin-left: 0;
+        
+        width: 33.7em;
+
+    }
+
+    footer {
+        margin-top: 35em;
+        width: 23em;
+        
+    }
+}
